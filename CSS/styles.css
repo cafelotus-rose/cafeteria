@@ -1,16 +1,17 @@
 
         /* Reset muy básico */
         * {
+        
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
-        html,
-        body {
+        html,body {
+          
             height: 100%;
             font-family: Inter, system-ui, Arial, sans-serif;
-            color: #222;
+            color: #563f0e;
         }
 
         /* Contenedor principal: usa flexbox en columna */
@@ -22,9 +23,10 @@
 
         /* Header con barra de navegación */
         header {
-            background: linear-gradient(90deg, #ffb9d9, #f542f5);
+            background: linear-gradient(90deg, #ffb9d9, #ff5fec);
             color: white;
             padding: 12px 20px;
+          
         }
 
         .nav-row {
@@ -73,7 +75,7 @@
             flex: 1 0 auto;
             /* ocupa el espacio restante */
             padding: 28px 20px;
-            background: #f6f9fc;
+            background: #fefffa;
         }
 
         .container {
@@ -85,9 +87,10 @@
             align-items: flex-start;
         }
 
-        .sidebar {
-            width: 260px;
-            background: white;
+        .fotito {
+            width: 100px;
+            height: 100px;
+            background: rgb(242, 246, 199);
             padding: 16px;
             border-radius: 10px;
             box-shadow: 0 6px 18px rgba(23, 43, 77, 0.06);
