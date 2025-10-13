@@ -1,46 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lotus Rose</title>
-</head>
-<body>
-    <header class="enca">
-    <center><img src="./IMG/flower.png" alt="Flor Lotus Rose" class="" height="300" width="1000"></center>
-    <div class="title">
-      <h1>Bienvenidos a Lotus Rose</h1>
-      <em class="subtitle">Un refugio para los pequeños placeres</em>
-    </div>
-  </header>
-
-  <nav>
-
-    <ul class="nav-list">
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="pregunt.html">Contacto</a></li>
-    <li><a href="#">Productos</a></li>
-    <li><a href="contact.html">Preguntas</a></li>
-    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plantilla Flexbox - Barra de Navegación</title>
+    <link rel="stylesheet" href="CSS/styles.css">
   
-    </ul>
+</head>
 
- </nav>
+<body>
+    <div class="page">
+        <header>
+            <div class="nav-row">
+                <div class="brand">Lotus Rose Cafe</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="otros/contact.html">Contacto</a></li>
+                        <li><a class="cta" href="otros/pregunt.html">Prweguntas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
+        <main>
+            <div class="container">
+                <div>
+                <aside class="sidebar">
+                    <center><img src="IMG/flower.png"  alt="Flor Lotus Rose" class="" height="80" width="200"></center>
+                   
+                </aside>
+            
+           <br>
+                <section class="content">
+                    <h2>Bienvenidos a Lotus Rose</h2>  
+                  <h3>Un refugio para los pequeños placeres</h3>
+                  <p>En Lotus Rose creemos que cada taza de café y cada bocado dulce tienen el poder de transformar un momento simple en algo especial. Nuestra cafetería nace del deseo de crear un espacio cálido, delicado y lleno de encanto, donde los sabores y los aromas se combinan con una estética cuidada que invita a quedarse.
+Inspirados en la belleza de la flor de loto y los tonos suaves de las rosas, ofrecemos una experiencia única para los sentidos. Aquí, lo artesanal se encuentra con lo moderno: pastelería hecha a mano, bebidas calientes reconfortantes y detalles visuales que reflejan el amor con el que preparamos cada producto.
+En nuestro menú vas a encontrar tortas, budines, cookies, donas, tartas frutales y muchas otras delicias que acompañan a la perfección nuestras infusiones, cafés y chocolates. Cada presentación está pensada para ser tan hermosa como sabrosa, ideal para disfrutar en persona o compartir en redes.
+Lotus Rose no es solo una cafetería, es un refugio para quienes buscan un respiro del ritmo diario, un rincón donde celebrar los pequeños placeres de la vida. Te invitamos a conocernos, a saborear lo dulce, y a sentirte como en casa.
+                  </p>
+                </section>
+            </div>
+        </main>
 
-  <main><section class="about">
-      <p>En Lotus Rose creemos que cada taza de café y cada bocado dulce tienen el poder de transformar un momento simple en algo especial. Nuestra cafetería nace del deseo de crear un espacio cálido, delicado y lleno de encanto, donde los sabores y los aromas se combinan con una estética cuidada que invita a quedarse.</p>
-      <p>Inspirados en la belleza de la flor de loto y los tonos suaves de las rosas, ofrecemos una experiencia única para los sentidos. Aquí, lo artesanal se encuentra con lo moderno: pastelería hecha a mano, bebidas calientes reconfortantes y detalles visuales que reflejan el amor con el que preparamos cada producto.</p>
-      <p>En nuestro menú vas a encontrar tortas, budines, cookies, donas, tartas frutales y muchas otras delicias que acompañan a la perfección nuestras infusiones, cafés y chocolates. Cada presentación está pensada para ser tan hermosa como sabrosa, ideal para disfrutar en persona o compartir en redes.</p>
-      <p>Lotus Rose no es solo una cafetería, es un refugio para quienes buscan un respiro del ritmo diario, un rincón donde celebrar los pequeños placeres de la vida. Te invitamos a conocernos, a saborear lo dulce, y a sentirte como en casa.</p>
-    </section>
-</main>
-
-  <footer>
-    
-     <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-    <p>© 2025 Mi Sitio Web. Todos los derechos reservados.</p></footer>
+       <footer>
+            © 2025 Mi Sitio Web. Todos los derechos reservados. ❤️
+            <script>
+                document.getElementById('year').textContent = new Date().getFullYear();
+            </script>
+        </footer>
+    </div>
 </body>
+
 </html>
+
