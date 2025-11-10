@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fffac9;
+    color: #3e2723;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcfe6;
+    padding: 15px 40px;
+}
+
+nav .logo {
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3e2723;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #8d6e63;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url("img/fondo-cafe.jpg"); /* opcional */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.mas {
+    text-align: center;
+    padding: 5px 20px;
+    background-size: cover;
+    background-position: center;
+    color: #a1794c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c8ff89;
+    margin-top: 50px;
+}
