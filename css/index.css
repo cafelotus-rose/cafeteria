@@ -55,6 +55,162 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #c8ff89;
+    background-color: #f18ed3;
     margin-top: 50px;
 }
+
+/*dentro de menu */
+
+.menu-detalle {
+    text-align: center;
+    background-color: #fff7cc;
+    padding: 60px 20px;
+}
+
+.item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+/*dendro de menu*/
+/*menu */ 
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.icono {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.icono img {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 50px;
+    justify-items: center;
+    align-items: start;
+}
+
+.tres {
+   width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 520px; /* Ajusta si necesitás */
+    padding-bottom: 15px;
+}
+
+.tres ul {
+    text-align: left;
+    margin: 10px 0 0 20px;
+    line-height: 1.6;
+}
+
+.tres img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.tres p {
+    margin-top: 10px;
+}
+/*conct*/
+
+.contacto {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #fbe9e7;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contacto h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #d7ccc8;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: #8d6e63;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6d4c41;
+}
+
+/*suc*/
+.sucursales {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.sucursales h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.sucursales p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.ite {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.ite img {
+    width: 200px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+     .sidebar {
+            width: 260px;
+            background: white;
+            padding: 16px;
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(23, 43, 77, 0.06);
+            flex-shrink: 0;
+        }
+
